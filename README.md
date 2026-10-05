@@ -11,7 +11,7 @@ Este proyecto extrae datos de libros de un sitio web de demostración (books.tos
 
 2. **Ejecutar el script principal:**
    ```bash
-   python -m src.main
+   python -m src.integration.run_all --simulate
    ```
 
 3. **Ver resultados:**
@@ -77,13 +77,13 @@ scrape (books.toscrape.com) → clean (LLM - títulos, descripciones, etiquetas)
 | ✅ | Las primeras 5 imágenes responden (HTTP < 400) | sí | fallidas: [] |
 
 ## Primeras 5 filas del CSV
-| Handle | Title | Type | Variant Price | Variant Inventory Qty |
+| URL handle | Title | Type | Price | Inventory quantity |
 |---|---|---|---|---|
-| a-light-in-the-attic | A Light in the Attic | Poetry | $51.77 | 22 |
-| tipping-the-velvet | Tipping the Velvet | Historical Fiction | $53.74 | 20 |
-| soumission | Soumission | Fiction | $50.10 | 20 |
-| sharp-objects | Sharp Objects | Mystery | $47.82 | 20 |
-| sapiens-a-brief-history-of-humankind | Sapiens: A Brief History of Humankind | History | $54.23 | 20 |
+| a-light-in-the-attic | A Light in the Attic | Poetry | 51.77 | 22 |
+| tipping-the-velvet | Tipping the Velvet | Historical Fiction | 53.74 | 20 |
+| soumission | Soumission | Fiction | 50.10 | 20 |
+| sharp-objects | Sharp Objects | Mystery | 47.82 | 20 |
+| sapiens-a-brief-history-of-humankind | Sapiens: A Brief History of Humankind | History | 54.23 | 20 |
 
 ## Limitaciones honestas
 - **Fuente:** books.toscrape.com (sitio web de práctica, no tienda real)
