@@ -8,3 +8,4 @@ data/clean/llm_cache.json
 logs/
 .pytest_cache/
 .aider*
+.clinerules
