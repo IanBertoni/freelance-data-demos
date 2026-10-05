@@ -1,7 +1,7 @@
 # Demo 1 – QA Report
 
 - Archivo: `shopify_products.csv`
-- Fecha: 2026-10-05 01:03
+- Fecha: 2026-10-05 15:00
 - Resultado: **15/15** validaciones aprobadas
 
 | Estado | Validación | Crítica | Detalle |
