@@ -31,7 +31,7 @@ def build_report(changes, old_snap: dict, new_snap: dict) -> dict:
     md += [f"- Snapshot anterior: #{old_snap['id']} ({old_snap['taken_at']}, {old_snap['n_products']} productos)",
            f"- Snapshot actual: #{new_snap['id']} ({new_snap['taken_at']}, {new_snap['n_products']} productos)",
            f"- Cambios totales: **{len(changes)}**\n", "## Resumen por tipo\n", "| Tipo | Cantidad |", "|---|---|"]
-    md += [f"| {k} | {v} |" for k, v in counts.most_common()] or ["| (sin cambios) | 0 |"]
+    md += [f"| {k.replace('_', ' ').title()} | {v} |" for k, v in counts.most_common()] or ["| (sin cambios) | 0 |"]
     for title, items in (("Mayores bajas de precio", drops), ("Mayores subidas de precio", rises)):
         md.append(f"\n## {title}\n")
         md.append("| Producto | Antes | Ahora | Cambio |\n|---|---|---|---|")
@@ -41,7 +41,7 @@ def build_report(changes, old_snap: dict, new_snap: dict) -> dict:
 
     # HTML sencillo y presentable
     rows_html = "".join(
-        f"<tr class='{c.severity.lower()}'><td>{html.escape(c.kind)}</td><td>{html.escape(c.title[:70])}</td>"
+        f"<tr class='{c.severity.lower()}'><td>{html.escape(c.kind.replace('_', ' ').title())}</td><td>{html.escape(c.title[:70])}</td>"
         f"<td>{'' if c.old_price is None else f'{c.old_price:.2f}'}</td><td>{'' if c.new_price is None else f'{c.new_price:.2f}'}</td>"
         f"<td>{'' if c.pct is None else f'{c.pct:+.1f}%'}</td></tr>" for c in changes[:200])
     html_doc = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Price Monitor</title>
