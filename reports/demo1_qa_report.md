@@ -1,8 +1,8 @@
 # Demo 1 – QA Report
 
 - Archivo: `shopify_products.csv`
-- Fecha: 2026-10-05 00:32
-- Resultado: **16/16** validaciones aprobadas
+- Fecha: 2026-10-05 01:03
+- Resultado: **15/15** validaciones aprobadas
 
 | Estado | Validación | Crítica | Detalle |
 |---|---|---|---|
@@ -21,4 +21,3 @@
 | ✅ | Published/Status con valores válidos | sí |  |
 | ✅ | Sin textos basura (None/nan/null/undefined) | sí |  |
 | ✅ | Completeness crítico ≥ 98 % | sí | 100.0 % |
-| ✅ | Las primeras 5 imágenes responden (HTTP < 400) | sí | fallidas: [] |
