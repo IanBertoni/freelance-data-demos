@@ -1,0 +1,29 @@
+# Reglas del proyecto freelance-data-demos
+
+## Idioma y estilo
+- Explica en español sencillo; asume que el usuario es principiante.
+- Código en Python 3.10+; comentarios claros.
+
+## Seguridad
+- NUNCA leas, imprimas ni subas el contenido de archivos .env ni claves API.
+- Antes de instalar paquetes o ejecutar comandos destructivos (rm, del, git reset --hard) pide confirmación.
+
+## Flujo
+- Trabaja en dos fases: PLAN (propones) y ACT (ejecutas tras mi OK).
+- Pasos pequeños. Al terminar cada paso ejecuta la verificación indicada y muéstrame la salida real.
+- Haz commit de git tras cada paso que funcione (mensajes cortos en inglés: feat:, fix:, docs:, test:).
+
+## Herramientas
+- Playwright MCP: solo para explorar páginas y confirmar selectores. El scraper final es un script Python en src/.
+- Context7: antes de usar la API de una librería (playwright, openai, litellm, schedule) consulta su documentación actual.
+- Memory MCP: guarda decisiones importantes (fuente elegida, umbrales, formato del CSV) y consúltalas al iniciar sesión.
+- Serena: para navegar o refactorizar código existente; no para crear archivos simples nuevos.
+
+## Calidad
+- Prohibido inventar datos. Si un campo no existe en la fuente, déjalo vacío y repórtalo en el reporte de completeness.
+- Todo script: argparse si recibe parámetros, logging (no print suelto), try/except con mensajes útiles, exit code distinto de 0 si falla.
+- Respeta robots.txt y términos del sitio; pausa mínima de 0.5 s entre peticiones.
+- No extraigas datos personales.
+
+## LLM
+- Tareas de texto (limpieza, normalización, SEO) van por LiteLLM con el modelo groq-qwen (variable LLM_MODEL en .env).

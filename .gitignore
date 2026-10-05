@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/prices.db
+data/raw/
+data/clean/llm_cache.json
+logs/
+.pytest_cache/
+.aider*
