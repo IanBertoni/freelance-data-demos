@@ -1,0 +1,26 @@
+{
+  "total_products": 60,
+  "critical_completeness_pct": 100.0,
+  "critical_grade": "A",
+  "optional_completeness_pct": 0.0,
+  "per_field_pct": {
+    "URL handle": 100.0,
+    "Title": 100.0,
+    "Description": 100.0,
+    "Vendor": 100.0,
+    "Type": 100.0,
+    "Tags": 100.0,
+    "SKU": 100.0,
+    "Price": 100.0,
+    "Inventory quantity": 100.0,
+    "Product image URL": 100.0,
+    "Image alt text": 100.0,
+    "SEO title": 100.0,
+    "SEO description": 100.0,
+    "Variant Barcodes": 0.0,
+    "Weight value (grams)": 0.0,
+    "Compare-at price": 0.0,
+    "Cost per item": 0.0
+  },
+  "products_below_100": []
+}

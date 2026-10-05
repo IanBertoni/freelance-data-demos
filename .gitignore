@@ -9,3 +9,4 @@ logs/
 .pytest_cache/
 .aider*
 .clinerules
+product_template.csv
