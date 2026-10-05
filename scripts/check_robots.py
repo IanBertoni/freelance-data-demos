@@ -1,4 +1,4 @@
-"""Uso: python scripts/check_robots.py <https://sitio.com/ruta>"""
+"""Uso: python scripts/check_robots.py https://sitio.com/ruta"""
 import sys
 from urllib.error import HTTPError
 from urllib.parse import urljoin, urlparse

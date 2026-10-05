@@ -21,12 +21,12 @@ for _d in (RAW_DIR, CLEAN_DIR, OUTPUT_DIR, REPORTS_DIR, LOGS_DIR):
 
 # --- Fuente de la demo (sitio creado para practicar scraping) ---
 SOURCE_NAME = "Books to Scrape"
-SOURCE_START_URL = "<https://books.toscrape.com/catalogue/page-1.html>"
+SOURCE_START_URL = "https://books.toscrape.com/catalogue/page-1.html"
 USER_AGENT = "Mozilla/5.0 (compatible; PortfolioDemoBot/1.0)"
 REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", "0.5"))
 
 # --- LLM vía proxy LiteLLM ---
-LLM_BASE_URL = os.getenv("LLM_BASE_URL", "<http://localhost:4000/v1>")
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:4000/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "sk-local-1234")
 LLM_MODEL = os.getenv("LLM_MODEL", "groq-qwen")
 
