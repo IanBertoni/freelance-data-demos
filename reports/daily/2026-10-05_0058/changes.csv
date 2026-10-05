@@ -1,0 +1,17 @@
+kind,severity,product_id,title,old_price,new_price,pct,url
+PRICE_INCREASE,HIGH,951,Unicorn Tracks,14.68,18.78,27.93,https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html
+PRICE_INCREASE,HIGH,994,The Dirty Little Secrets of Getting Your Dream Job,26.67,33.34,25.01,https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+PRICE_INCREASE,HIGH,959,Reasons to Stay Alive,22.08,26.41,19.61,https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html
+PRICE_INCREASE,HIGH,949,Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2),13.88,16.28,17.29,https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html
+PRICE_DROP,HIGH,973,Aladdin and His Wonderful Lamp,62.93,53.13,-15.57,https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html
+PRICE_DROP,HIGH,960,Slow States of Collapse: Poems,67.04,57.31,-14.51,https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html
+PRICE_DROP,HIGH,978,"Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",35.31,30.52,-13.57,https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html
+PRICE_INCREASE,HIGH,956,Without Borders (Wanderlove #1),39.95,45.07,12.82,https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html
+REMOVED,HIGH,SIM-0001,Simulated Demo Book,19.99,,,<https://example.invalid/sim-0001>
+PRICE_INCREASE,NORMAL,976,Black Dust,32.25,34.53,7.07,https://books.toscrape.com/catalogue/black-dust_976/index.html
+PRICE_DROP,NORMAL,998,Soumission,53.91,50.1,-7.07,https://books.toscrape.com/catalogue/soumission_998/index.html
+PRICE_DROP,NORMAL,995,The Requiem Red,24.14,22.65,-6.17,https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+PRICE_INCREASE,NORMAL,963,"In a Dark, Dark Wood",18.84,19.63,4.19,https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html
+NEW_PRODUCT,NORMAL,970,The Four Agreements: A Practical Guide to Personal Freedom,,17.66,,https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html
+BACK_IN_STOCK,NORMAL,971,Wall and Piece,44.18,44.18,,https://books.toscrape.com/catalogue/wall-and-piece_971/index.html
+BACK_IN_STOCK,NORMAL,985,"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",57.25,57.25,,https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html

@@ -1,0 +1,14 @@
+Price Monitor – Alertas
+
+PRICE MONITOR – 9 alertas importantes de 16 cambios
+Comparación: snapshot #2 → #3
+
+- PRICE_INCREASE +27.9%: Unicorn Tracks (14.68 → 18.78)
+- PRICE_INCREASE +25.0%: The Dirty Little Secrets of Getting Your Dream Job (26.67 → 33.34)
+- PRICE_INCREASE +19.6%: Reasons to Stay Alive (22.08 → 26.41)
+- PRICE_INCREASE +17.3%: Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2) (13.88 → 16.28)
+- PRICE_DROP -15.6%: Aladdin and His Wonderful Lamp (62.93 → 53.13)
+- PRICE_DROP -14.5%: Slow States of Collapse: Poems (67.04 → 57.31)
+- PRICE_DROP -13.6%: Foolproof Preserving: A Guide to Small Batch Jams, Jellies,  (35.31 → 30.52)
+- PRICE_INCREASE +12.8%: Without Borders (Wanderlove #1) (39.95 → 45.07)
+- REMOVED: Simulated Demo Book
